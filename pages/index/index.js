@@ -20,6 +20,11 @@ Page({
       url: '/pages/soul/soul',
     })
   },
+  navToDog() {
+    wx.navigateTo({
+      url: '/pages/dog/dog',
+    })
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

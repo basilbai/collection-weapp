@@ -3,20 +3,36 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  padding-top: 200rpx;
+  /* padding-top: 200rpx; */
 }
 
+.top-wrap {
+  padding: 20rpx 0;
+  width: 700rpx;
+  height: 200rpx;
+}
+
+.logo-name {
+  font-size: 56rpx;
+  color: #333333;
+  font-weight: bold;
+}
+.sologan{
+  font-size: 28rpx;
+  color: #666666;
+  margin-top: 20rpx;
+}
 .item {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   width: 640rpx;
   height: 130rpx;
   padding: 0 30rpx;
+  margin-bottom: 30rpx;
   background-color: #ffffff;
-
   box-shadow: 0px 3rpx 16rpx 0px rgba(255, 255, 255, 0.37);
-
 }
 
 .title {

@@ -1,6 +1,20 @@
 <view class='container'>
+  <view class="top-wrap">
+    <view class="logo-name">柯来申</view>
+    <view class="sologan">集齐全网好玩又有趣的网络API，持续更新迭代中...</view>
+  </view>
   <view class='item' bindtap="navToSoul">
-    <view class='title'>心灵毒鸡汤</view>
-    <view class='subTitle'>心灵毒鸡汤,你是要鸡汤呢还是鸡汤呢! </view>
+    <view>
+      <view class='title'>心灵毒鸡汤</view>
+      <view class='subTitle'>一晚毒鸡汤提升又醒脑</view>
+    </view>
+    <van-icon name="arrow" />
+  </view>
+  <view class='item' bindtap="navToDog">
+    <view>
+      <view class='title'>舔狗日记</view>
+      <view class='subTitle'>舔到最后应有尽有</view>
+    </view>
+    <van-icon name="arrow" />
   </view>
 </view>

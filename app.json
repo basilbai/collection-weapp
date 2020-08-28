@@ -1,13 +1,13 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/soul/soul"
+    "pages/soul/soul",
+    "pages/dog/dog"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "柯来申",
     "navigationBarTextStyle": "black"
   },
   "usingComponents": {
@@ -15,7 +15,8 @@
     "van-skeleton": "@vant/weapp/skeleton/index",
     "van-grid": "@vant/weapp/grid/index",
     "van-grid-item": "@vant/weapp/grid-item/index",
-    "van-transition": "@vant/weapp/transition/index"
+    "van-transition": "@vant/weapp/transition/index",
+    "van-icon": "@vant/weapp/icon/index"
   },
   "sitemapLocation": "sitemap.json"
 }
