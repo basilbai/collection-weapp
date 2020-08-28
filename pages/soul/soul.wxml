@@ -1,0 +1,11 @@
+<view class='container'>
+  <image class="soul_top" src="/img/soul_top.png" />
+
+  <view class='content-wrap animation-scale-up' wx:if="{{content}}">
+    <view class='content-txt'>
+      {{content}}
+    </view>
+  </view>
+
+  <van-button bindtap="getData" block class="btn" type="primary">换一条</van-button>
+</view>

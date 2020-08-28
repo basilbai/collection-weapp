@@ -1,0 +1,30 @@
+.container {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.soul_top {
+  width: 750rpx;
+  height: 383rpx;
+}
+
+.content-wrap {
+  margin-top: 150rpx;
+  padding: 30rpx;
+  width: 640rpx;
+  border-radius: 15rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4rpx 4rpx 8rpx 4rpx rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.content-txt{
+  font-size: 28rpx;
+  color: #555;
+}
+.btn{
+  position: absolute;
+  bottom: 100rpx;
+}

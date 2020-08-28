@@ -1,0 +1,6 @@
+<view class='container'>
+  <view class='item' bindtap="navToSoul">
+    <view class='title'>心灵毒鸡汤</view>
+    <view class='subTitle'>心灵毒鸡汤,你是要鸡汤呢还是鸡汤呢! </view>
+  </view>
+</view>
